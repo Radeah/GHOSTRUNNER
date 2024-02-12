@@ -8,6 +8,7 @@ public class WallRunning : MonoBehaviour
     public LayerMask whatIsWall;
     public LayerMask whatIsGround;
     public float wallRunForce;
+    public float WallJumpForce;
     public float wallClimbSpeed;
     public float maxWallRunTime;
     private float wallRunTimer;
